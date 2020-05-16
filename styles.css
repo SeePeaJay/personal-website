@@ -1,3 +1,38 @@
-:root {
-    font-size: 100%
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eeeeee;
+    /* #F2F4F6 */
+}
+
+article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-family: YWFTFormation-UltraBold;
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: #e42f2b;
+    /* line-height: 80%; #cb0000*/
+}
+
+p {
+    padding-bottom: .5rem;
+    font-family: AvenirLTPro-Roman;
+    font-size: .8rem;
+    color: #525250;
+    /* letter-spacing: 0.5px; */
+}
+
+a:visited {
+    color: #e74542;
+    /* #4c76be */
 }
