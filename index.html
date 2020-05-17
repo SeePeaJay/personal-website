@@ -7,8 +7,38 @@
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
         <link rel="stylesheet" type="text/css" href="Webfont_Kit.css">
+        <script src="three.r95.min.js"></script>
+        <script src="vanta.waves.min.js"></script>
+        <script src="vanta.net.min.js"></script>
     </head>
     <body>
+        <div id="vantajs"></div>
+        <script>
+            // VANTA.WAVES({
+            //     el: "#vantajs",
+            //     mouseControls: true,
+            //     touchControls: true,
+            //     minHeight: 200.00,
+            //     minWidth: 200.00,
+            //     scale: 1.00,
+            //     scaleMobile: 1.00,
+            //     color: 0x909090,
+            // });
+            VANTA.NET({
+                    el: "#vantajs",
+                    mouseControls: true,
+                    touchControls: true,
+                    minHeight: 200.00,
+                    minWidth: 200.00,
+                    scale: 1.00,
+                    scaleMobile: 1.00,
+                    color: 0xe74542,
+                    backgroundColor: 0xeeeeee,
+                    points: 5.00,
+                    showDots: false
+                });
+        </script>
+        <div id="blurred-area"></div>
         <article>
             <header>
                 <h1>Hank Chen</h1>

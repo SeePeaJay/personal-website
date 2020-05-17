@@ -8,6 +8,18 @@ body {
     /* #F2F4F6 */
 }
 
+#vantajs {
+    height: 100vh;
+}
+
+#blurred-area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(8px);
+}
+
 article {
     position: absolute;
     top: 50%;
