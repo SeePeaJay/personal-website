@@ -17,7 +17,6 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    filter: blur(8px);
 }
 
 article {
@@ -26,6 +25,7 @@ article {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    background-color: rgba(238, 238, 238, .5); /* backdrop-filter isn't properly supported in Firefox so we'll use this workaround */
 }
 
 h1 {
@@ -33,7 +33,7 @@ h1 {
     text-transform: uppercase;
     font-size: 3rem;
     color: #e42f2b;
-    /* line-height: 80%; #cb0000*/
+    /* line-height: 80%; #4069b1, #cb0000, #e42f2b */
 }
 
 p {
@@ -46,5 +46,5 @@ p {
 
 a:visited {
     color: #e74542;
-    /* #4c76be */
+    /* #4c76be, #e74542 */
 }
